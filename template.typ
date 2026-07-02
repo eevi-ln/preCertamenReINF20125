@@ -47,8 +47,7 @@
         columns: (1fr,) * ncols,
         row-gutter: 24pt,
         ..authors.map(author => [
-          #author.name \
-          #author.email
+          #author.name 
         ])
       )
     }

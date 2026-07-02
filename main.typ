@@ -8,8 +8,8 @@
 #set heading(numbering: "1.")
 
 #set document(
-  title: [Programación Avanzada],
-  author: ("Benjamín Echeverría", "Facundo Riquelme")
+  title: [Pre-Certamen PA 2026-1],
+  author: ("Evi Lambert", "Facundo Riquelme")
 )
 
 #cover(
@@ -17,12 +17,10 @@
   subtitle: "Handbook",
   authors: (
     (
-      name: "Benjamín Echeverría",
-      email: "becheverria@usm.cl"
+      name: "Evi Lambert",
     ),
     (
       name: "Facundo Riquelme",
-      email: "friquelmel@usm.cl"
     ),
   )
 )
@@ -33,14 +31,19 @@
 
 #pagebreak()
 
-// #include "docs/chapters/ch1.typ"
-
-#include "/docs/c/intro-c.typ"
+#include "/content/array.typ"
 
 #pagebreak()
 
-#include "/docs/bash/terminal.typ"
+#include "/content/matrix.typ"
 
 #pagebreak()
 
-#bibliography("/references.bib")
+#include "/content/OOP.typ"
+
+#pagebreak()
+
+#include "/content/backtracking.typ"
+
+#pagebreak()
+
