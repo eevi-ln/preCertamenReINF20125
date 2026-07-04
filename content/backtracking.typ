@@ -28,7 +28,7 @@ Deben imprimir un único número entero, el numero de elementos del arreglo orig
 
 #block(
 //  fill: luma(250),
-  width: 99%,
+  width: 100%,
   fill: ejemplos,
   inset: 6pt,
   stroke: 0.5pt + black,
@@ -39,11 +39,12 @@ Deben imprimir un único número entero, el numero de elementos del arreglo orig
   strong[output]+parbreak()+
   `4`
 )
+*Explicación*
 Podemos reordenar sus elementos obteniendo:
 `1 5 5 3 10 1 1`, donde entonces los elementos desde la segunda posición hasta la quinta aumentaron.\
 
 #block(
-  width: 99%,
+  width: 100%,
   fill: ejemplos,
   inset: 6pt,
   stroke: 0.5pt + black,
@@ -56,7 +57,8 @@ Podemos reordenar sus elementos obteniendo:
 )
 No se puede reordenar los elementos del arreglo de ninguna manera permitiendo que alguna posición quede con un valor mayor al con el que comenzó.
 ],
-  solution: [#raw(read("/code/backtracking-sol.cpp"), block:true, lang: "cpp")],
+  solution: [#raw(read("/code/na.cpp"), block:true, lang: "cpp")],
+//  solution: [#raw(read("/code/array-sol.cpp"), block:true, lang: "cpp")],
   show_enun: true,
   show_sol: true,
 ) = {

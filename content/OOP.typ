@@ -12,7 +12,8 @@ La clase se llama `SuperString`, la cual implementa un string haciendo uso de li
 
 Se le pide completar la estructura. Asegurese de no tener Leaks de Memoria
 ],
-  solution: [#raw(read("/code/OOP-sol.cpp"), block:true, lang: "cpp")],
+  solution: [#raw(read("/code/na.cpp"), block:true, lang: "cpp")],
+//  solution: [#raw(read("/code/OOP-sol.cpp"), block:true, lang: "cpp")],
   show_enun: true,
   show_sol: true,
 ) = {
